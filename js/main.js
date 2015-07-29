@@ -9,4 +9,8 @@ $(document).ready(function(){
 
   $('.fullheight').css('height', wheight/2);
 
+  $("#accordion").accordion({
+    heightStyle: "content"
+  });
+
 });

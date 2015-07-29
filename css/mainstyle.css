@@ -31,7 +31,8 @@ body {
 
 /* TEXT FIELD STYLE */
 .text-index {
-    padding: 30px;
+    margin: 50px 0;
+    padding: 10px;
     background: #424143;
     color: white;
     font-size: 1.5em;
@@ -72,5 +73,29 @@ body {
 .carousel-inner > .item > img {
     margin: 0 auto;
 } /* align image to horizontal center */
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
 
 /* ./  carousel style */
