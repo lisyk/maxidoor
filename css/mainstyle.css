@@ -1,0 +1,76 @@
+/* Custom style CSS */
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* NAV TEXT STYLE */
+
+.bold {
+  font-weight: 900;
+}
+
+/* ./ nav text style */
+
+/* REMOVE BLUE COLOR FROM LINK */
+.service-block a {
+  color: #000000;
+}
+/* -- ./ remove blue color */
+
+/* MAKE ICONS BLUE when hover */
+.a_on_hover {
+  color: #285B9C;
+}
+
+/* ./ make icons blue when hover */
+
+
+/* TEXT FIELD STYLE */
+.text-index {
+    padding: 30px;
+    background: #424143;
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+
+.service-block {
+  margin-top: 50px;
+
+}
+
+.h_header {
+  background-color: white;
+  color: #424143;
+  font-weight: 900;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+
+/* ./ text field header */
+
+
+/* GOOGLE map style CONTACT page */
+#map-canvas {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-color: #CCC;
+
+}
+
+
+
+/* Carousel style */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+} /* align image to horizontal center */
+
+/* ./  carousel style */
