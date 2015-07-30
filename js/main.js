@@ -13,6 +13,10 @@ $(document).ready(function(){
     heightStyle: "content"
   });
 
+  $("#accordion2").accordion({
+    heightStyle: "content"
+  });
+
   $("img.disaturate").hover(function(){
     $(this).toggleClass("disaturate");
   });
