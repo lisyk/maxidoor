@@ -13,4 +13,8 @@ $(document).ready(function(){
     heightStyle: "content"
   });
 
+  $("img.disaturate").hover(function(){
+    $(this).toggleClass("disaturate");
+  });
+
 });

@@ -51,11 +51,21 @@ body {
   font-weight: 900;
   padding: 10px;
   border-radius: 10px;
-
 }
 
 /* ./ text field header */
 
+/* IMAGE STYLE */
+img.disaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+img.door_sam {
+  width: 95%;
+}
+
+/* ./ image style */
 
 /* GOOGLE map style CONTACT page */
 #map-canvas {
@@ -99,3 +109,11 @@ body {
 }
 
 /* ./  carousel style */
+
+
+/* FOOTER STYLE */
+.my_footer {
+  text-align: center;
+}
+
+/* ./ footer style */
